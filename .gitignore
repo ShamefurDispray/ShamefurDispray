@@ -1,5 +1,9 @@
 .dotnet/
 .cline-home/
 src/game/
+managed/
 bin/
 obj/
+.tools/
+tools/validate/bin/
+tools/validate/obj/

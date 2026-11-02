@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ID>PerkShopFramework</ID>
+  <Name>天赋商店 / PerkShop</Name>
+  <Author>星熠 (native port)</Author>
+  <ModVersion>0.3.3-native.1</ModVersion>
+  <Description>Perk shop and perk pricing, starting perk fixes, mentor dialogue events, commissary integration and save-state compatibility. Native port of the MelonLoader build: no MelonLoader dependency, Harmony patches still used.</Description>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>PerkShopFramework.dll</Assembly>
+  </Assemblies>
+  <Capabilities>
+    <Capability>reflection-external</Capability>
+  </Capabilities>
+</Mod>
