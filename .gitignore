@@ -1,0 +1,5 @@
+.dotnet/
+.cline-home/
+src/game/
+bin/
+obj/

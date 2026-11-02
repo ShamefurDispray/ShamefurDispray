@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PerkShopFramework</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Private.CoreLib" />
+    <Reference Include="MelonLoader" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>../../Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="0Harmony">
+      <HintPath>../../0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="System.Linq" />
+  </ItemGroup>
+</Project>
